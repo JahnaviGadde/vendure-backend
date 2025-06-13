@@ -1,0 +1,37 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:server": "ts-node ./src/index.ts",
+    "dev:worker": "ts-node ./src/index-worker.ts",
+    "dev": "concurrently npm:dev:*",
+    "build": "tsc",
+    "start:server": "node ./dist/index.js",
+    "start:worker": "node ./dist/index-worker.js",
+    "start": "concurrently npm:start:*",
+    "codegen": "graphql-codegen --config codegen.ts",
+    "build:admin-ui": "vendure.cmd build-admin-ui"
+  },
+  "dependencies": {
+    "@nestjs/graphql": "^13.0.4",
+    "@vendure/admin-ui-plugin": "^3.2.2",
+    "@vendure/asset-server-plugin": "3.2.2",
+    "@vendure/core": "^3.2.2",
+    "@vendure/elasticsearch-plugin": "^3.2.3",
+    "@vendure/email-plugin": "^3.2.2",
+    "dotenv": "16.4.7",
+    "html2pdf.js": "^0.10.3",
+    "pg": "8.14.1",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "5.0.5",
+    "@graphql-codegen/typescript": "4.1.6",
+    "@types/react": "^19.1.0",
+    "@vendure/cli": "^3.2.2",
+    "@vendure/ui-devkit": "^3.2.2",
+    "concurrently": "9.1.2",
+    "typescript": "5.8.2"
+  }
+}
