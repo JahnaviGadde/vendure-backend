@@ -22,13 +22,13 @@ import {
   getAppConfig,
   map,
   ɵNgNoValidate
-} from "./chunk-XXZRMVFH.js";
+} from "./chunk-6SV3ISSU.js";
 import "./chunk-KLSO5YUN.js";
-import "./chunk-E52LK5WV.js";
 import {
   Router,
   RouterModule
 } from "./chunk-3XRCYCMF.js";
+import "./chunk-E52LK5WV.js";
 import {
   HttpClient
 } from "./chunk-7I2ZCN5L.js";

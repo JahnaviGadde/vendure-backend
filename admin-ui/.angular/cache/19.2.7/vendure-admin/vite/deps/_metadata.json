@@ -1,103 +1,103 @@
 {
-  "hash": "955ef7e6",
+  "hash": "8e7a6007",
   "configHash": "6ddfb5ac",
-  "lockfileHash": "25974c6e",
-  "browserHash": "5352a940",
+  "lockfileHash": "10e016fe",
+  "browserHash": "a0894126",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "b3b6a356",
+      "fileHash": "01e47f26",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "20346a11",
+      "fileHash": "d459c23b",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "71a3edf6",
+      "fileHash": "af1f62d4",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "407df899",
+      "fileHash": "c1469986",
       "needsInterop": false
     },
     "@biesbjerg/ngx-translate-extract-marker": {
       "src": "../../../../../../../node_modules/@biesbjerg/ngx-translate-extract-marker/fesm5/biesbjerg-ngx-translate-extract-marker.js",
       "file": "@biesbjerg_ngx-translate-extract-marker.js",
-      "fileHash": "c198f03f",
+      "fileHash": "0b0fe781",
       "needsInterop": false
     },
     "@vendure/admin-ui/catalog": {
       "src": "../../../../../../../node_modules/@vendure/admin-ui/fesm2022/vendure-admin-ui-catalog.mjs",
       "file": "@vendure_admin-ui_catalog.js",
-      "fileHash": "5b768a28",
+      "fileHash": "dde8923d",
       "needsInterop": false
     },
     "@vendure/admin-ui/core": {
       "src": "../../../../../../../node_modules/@vendure/admin-ui/fesm2022/vendure-admin-ui-core.mjs",
       "file": "@vendure_admin-ui_core.js",
-      "fileHash": "40d98c31",
+      "fileHash": "3c35108d",
       "needsInterop": false
     },
     "@vendure/admin-ui/customer": {
       "src": "../../../../../../../node_modules/@vendure/admin-ui/fesm2022/vendure-admin-ui-customer.mjs",
       "file": "@vendure_admin-ui_customer.js",
-      "fileHash": "022b3311",
+      "fileHash": "e93473c0",
       "needsInterop": false
     },
     "@vendure/admin-ui/dashboard": {
       "src": "../../../../../../../node_modules/@vendure/admin-ui/fesm2022/vendure-admin-ui-dashboard.mjs",
       "file": "@vendure_admin-ui_dashboard.js",
-      "fileHash": "605154a2",
+      "fileHash": "cf1b7390",
       "needsInterop": false
     },
     "@vendure/admin-ui/login": {
       "src": "../../../../../../../node_modules/@vendure/admin-ui/fesm2022/vendure-admin-ui-login.mjs",
       "file": "@vendure_admin-ui_login.js",
-      "fileHash": "3b83f880",
+      "fileHash": "46348931",
       "needsInterop": false
     },
     "@vendure/admin-ui/marketing": {
       "src": "../../../../../../../node_modules/@vendure/admin-ui/fesm2022/vendure-admin-ui-marketing.mjs",
       "file": "@vendure_admin-ui_marketing.js",
-      "fileHash": "32e047a3",
+      "fileHash": "2f9e4009",
       "needsInterop": false
     },
     "@vendure/admin-ui/order": {
       "src": "../../../../../../../node_modules/@vendure/admin-ui/fesm2022/vendure-admin-ui-order.mjs",
       "file": "@vendure_admin-ui_order.js",
-      "fileHash": "fe243936",
+      "fileHash": "404cf525",
       "needsInterop": false
     },
     "@vendure/admin-ui/settings": {
       "src": "../../../../../../../node_modules/@vendure/admin-ui/fesm2022/vendure-admin-ui-settings.mjs",
       "file": "@vendure_admin-ui_settings.js",
-      "fileHash": "a7852d30",
+      "fileHash": "9bedc392",
       "needsInterop": false
     },
     "@vendure/admin-ui/system": {
       "src": "../../../../../../../node_modules/@vendure/admin-ui/fesm2022/vendure-admin-ui-system.mjs",
       "file": "@vendure_admin-ui_system.js",
-      "fileHash": "82a09f07",
+      "fileHash": "008023fe",
       "needsInterop": false
     },
     "graphql-tag": {
       "src": "../../../../../../../node_modules/graphql-tag/lib/index.js",
       "file": "graphql-tag.js",
-      "fileHash": "7703028e",
+      "fileHash": "35d9159e",
       "needsInterop": false
     },
     "html2pdf.js": {
       "src": "../../../../../../../node_modules/html2pdf.js/dist/html2pdf.js",
       "file": "html2pdf__js.js",
-      "fileHash": "f3363b1d",
+      "fileHash": "1861106f",
       "needsInterop": true
     }
   },
@@ -117,17 +117,17 @@
     "chunk-ZK4SCIIZ": {
       "file": "chunk-ZK4SCIIZ.js"
     },
-    "chunk-XXZRMVFH": {
-      "file": "chunk-XXZRMVFH.js"
+    "chunk-6SV3ISSU": {
+      "file": "chunk-6SV3ISSU.js"
     },
     "chunk-KLSO5YUN": {
       "file": "chunk-KLSO5YUN.js"
     },
-    "chunk-E52LK5WV": {
-      "file": "chunk-E52LK5WV.js"
-    },
     "chunk-3XRCYCMF": {
       "file": "chunk-3XRCYCMF.js"
+    },
+    "chunk-E52LK5WV": {
+      "file": "chunk-E52LK5WV.js"
     },
     "chunk-7I2ZCN5L": {
       "file": "chunk-7I2ZCN5L.js"

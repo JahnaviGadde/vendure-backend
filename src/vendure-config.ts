@@ -153,22 +153,41 @@ export const config: VendureConfig = {
                 changeEmailAddressUrl: 'http://localhost:8080/verify-email-address-change'
             },
         }),
+        // AdminUiPlugin.init({
+        //     route: 'admin',
+        //     port: serverPort + 2,
+        //     adminUiConfig: {
+        //         apiPort: serverPort,
+        //     },
+        //     app: compileUiExtensions({
+        //         outputPath: path.join(__dirname, '../admin-ui'),
+        //         extensions: [
+        //             MyAdminUiPlugin.ui,
+        //             WebContentPlugin.ui,
+        //         ],
+        //         devMode: true,
+        //     }),
+        // }),
+        // MyAdminUiPlugin.init({}),
+        // WebContentPlugin.init({}),
+
         AdminUiPlugin.init({
-            route: 'admin',
-            port: serverPort + 2,
-            adminUiConfig: {
-                apiPort: serverPort,
-            },
-            app: compileUiExtensions({
-                outputPath: path.join(__dirname, '../admin-ui'),
-                extensions: [
-                    MyAdminUiPlugin.ui,
-                    WebContentPlugin.ui,
-                ],
-                devMode: true,
-            }),
-        }),
-        MyAdminUiPlugin.init({}),
-        WebContentPlugin.init({}),
+    route: 'admin',
+    port: serverPort + 2,
+    adminUiConfig: {
+        apiPort: serverPort,
+    },
+    app: IS_DEV
+        ? compileUiExtensions({
+              outputPath: path.join(__dirname, '../admin-ui'),
+              extensions: [
+                  MyAdminUiPlugin.ui,
+                  WebContentPlugin.ui,
+              ],
+              devMode: true,
+          })
+        : undefined,
+}),
+
     ],
 };
