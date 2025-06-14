@@ -17,9 +17,3 @@
 @import 'theme/dark';
 
 @import "rtl";
-
-/* Hide Marketing from Sidebar */
-[vendure-sidebar] .vendure-menu-section:nth-child(3) { 
-    display: none !important;
-}
-

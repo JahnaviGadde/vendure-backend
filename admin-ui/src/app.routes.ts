@@ -17,7 +17,7 @@ export const routes: Route[] = [
             // Defining the extension routes before the built-in routes allows
             // the extension routes to take precedence over the built-in routes, enabling
             // the extensions to override built-in functionality.
-             ...extensionRoutes,
+            ...extensionRoutes,
             {
                 path: '',
                 pathMatch: 'full',

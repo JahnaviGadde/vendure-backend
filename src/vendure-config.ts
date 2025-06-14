@@ -159,35 +159,27 @@ export const config: VendureConfig = {
         //     adminUiConfig: {
         //         apiPort: serverPort,
         //     },
+            
         //     app: compileUiExtensions({
         //         outputPath: path.join(__dirname, '../admin-ui'),
         //         extensions: [
         //             MyAdminUiPlugin.ui,
         //             WebContentPlugin.ui,
         //         ],
-        //         devMode: true,
+        //         devMode: false,
         //     }),
         // }),
-        // MyAdminUiPlugin.init({}),
-        // WebContentPlugin.init({}),
 
-        AdminUiPlugin.init({
-    route: 'admin',
-    port: serverPort + 2,
-    adminUiConfig: {
-        apiPort: serverPort,
-    },
-    app: IS_DEV
-        ? compileUiExtensions({
-              outputPath: path.join(__dirname, '../admin-ui'),
-              extensions: [
-                  MyAdminUiPlugin.ui,
-                  WebContentPlugin.ui,
-              ],
-              devMode: true,
-          })
-        : undefined,
-}),
+    AdminUiPlugin.init({
+        route: 'admin',
+        port: serverPort + 2,
+        app: {
+            path: path.join(__dirname, 'admin-ui/dist/browser'),
+        },
+        }),
 
+
+        MyAdminUiPlugin.init({}),
+        WebContentPlugin.init({}),
     ],
 };

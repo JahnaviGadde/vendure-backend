@@ -11,7 +11,3 @@
 @import "global/global";
 @import 'theme/default';
 @import 'theme/dark';
-
-.vendure-menu-section[ng-reflect-title="Marketing"] {
-    display: none !important;
-}
