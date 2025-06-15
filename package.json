@@ -9,10 +9,10 @@
     "start:server": "node ./dist/src/index.js",
     "start:worker": "node ./dist/src/index-worker.js",
     "codegen": "graphql-codegen --config codegen.ts",
-    "build:admin": "rimraf admin-ui && ts-node src/compile-admin-ui.ts",
+    "build:admin": "rimraf admin-ui && ts-node src/compile-admin-ui.ts && npm run replace-i18n",
     "copy": "copyfiles -u 1 \"admin-ui/**/*\" dist/src/admin-ui",
-    "replace-i18n": "copyfiles -f src/en.json admin-ui/dist/browser/i18n-messages/en.json",
-    "build": "tsc && cpx \"src/plugins/**/ui/**/*\" dist/src/plugins && cpx \"static/**/*\" dist/static && npm run copy && npm run replace-i18n",
+    "replace-i18n": "copyfiles -f src/en.json admin-ui/dist/browser/i18n-messages",
+    "build": "tsc && cpx \"src/plugins/**/ui/**/*\" dist/src/plugins && cpx \"static/**/*\" dist/static && npm run copy",
     "start": "concurrently npm:start:*",
     "deploy": "npm run build && npm run compile-admin && npm run start"
   },
