@@ -6,8 +6,6 @@ export class Content extends VendureEntity {
     constructor(input?: DeepPartial<Content>) {
         super(input);
     }
-    @PrimaryGeneratedColumn
-    () id!: number;
 
     @Column({ unique: true })
     code!: string; // Required field for Vendure custom entities
