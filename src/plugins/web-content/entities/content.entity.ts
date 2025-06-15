@@ -1,4 +1,4 @@
-import { Column, Entity } from 'typeorm';
+import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 import { VendureEntity, DeepPartial } from '@vendure/core';
 
 @Entity('content')
@@ -6,6 +6,8 @@ export class Content extends VendureEntity {
     constructor(input?: DeepPartial<Content>) {
         super(input);
     }
+    @PrimaryGeneratedColumn
+    () id!: number;
 
     @Column({ unique: true })
     code!: string; // Required field for Vendure custom entities

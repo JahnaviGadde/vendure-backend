@@ -12,6 +12,7 @@
     "skipLibCheck": true,
     "outDir": "./dist",
     "baseUrl": "./"
+    
   },
   "exclude": ["node_modules", "migration.ts", "src/plugins/**/ui/*", "admin-ui" , "dist"],
   "ts-node": {
